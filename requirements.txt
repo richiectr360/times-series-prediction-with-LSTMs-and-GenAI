@@ -10,3 +10,4 @@ torch>=1.7.1
 torchvision>=0.8.2
 langchain
 torchviz>=0.0.2
+graphviz>=0.16
