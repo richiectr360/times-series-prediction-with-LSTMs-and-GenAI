@@ -23,7 +23,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
-from torchview import draw_graph
+#from torchview import draw_graph
 import torchvision
 
 st.set_page_config(page_title = "DNN Lab", page_icon = "🌌️", layout = "wide", initial_sidebar_state = "expanded")
@@ -611,13 +611,13 @@ class DNN:
 
 				model = DNN_Net(input_size = net_in_out, hidden_layer_size = 32, num_layers = 2, output_size = net_in_out, dropout = 0.2)
 
-				if self.grp_vis:
-					with st.sidebar:
-						with st.expander(symbol):
-							model_graph = draw_graph(model, input_size = dataset_train.x.shape, expand_nested = True)
-							model_graph.visual_graph
-							model_graph.resize_graph(scale = 5.0)
-							model_graph.visual_graph.render(format = 'svg')
+				# if self.grp_vis:
+				# 	with st.sidebar:
+				# 		with st.expander(symbol):
+				# 			model_graph = draw_graph(model, input_size = dataset_train.x.shape, expand_nested = True)
+				# 			model_graph.visual_graph
+				# 			model_graph.resize_graph(scale = 5.0)
+				# 			model_graph.visual_graph.render(format = 'svg')
 
 				if symbol in st.session_state.trained_model:
 					trained_model = st.session_state.trained_model[symbol]
