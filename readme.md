@@ -6,6 +6,11 @@ DNN Lab is an advanced financial analysis tool powered by deep neural networks, 
 ## Problem
 Financial markets are volatile and complex, making it challenging for traders and analysts to predict future stock prices accurately. Traditional statistical methods often fall short in capturing the non-linear patterns in financial time series data, leading to suboptimal trading strategies.
 
+# demonstration
+![Screenshot1](https://github.com/richiectr360/times-series-prediction-with-lstms-and-genai/blob/main/screenshots/1.png)
+![Screenshot2](https://github.com/richiectr360/times-series-prediction-with-lstms-and-genai/blob/main/screenshots/2.png)
+![Screenshot3](https://github.com/richiectr360/times-series-prediction-with-lstms-and-genai/blob/main/screenshots/3.png)
+
 ## Solution
 DNN Lab addresses these challenges by utilizing sophisticated deep learning models that can learn from large amounts of historical financial data and identify underlying patterns more effectively than traditional models. The application provides:
 - **Real-time Predictions**: Generates forecasts for future stock prices using data from Yahoo Finance.
